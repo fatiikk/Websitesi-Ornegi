@@ -1,0 +1,210 @@
+.header,
+.slider,
+.blog,
+.about,
+.kategori,
+.body,
+.banner{
+    width: 100%;
+    float: left;
+    }
+.header{
+    height: 150px;
+
+    }
+.header .logo{
+    width: 150px;
+    height: 150px;
+    float: left;
+    
+    }
+.header .logo img{
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    }
+.header .banner{
+
+    width: calc(100% - 9%) ;
+    height: 150px;
+    float: left;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    }
+
+.navi-link a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(107, 21, 107);
+    margin-top: 50px;
+    margin-left: 100px;
+    padding: 9px;
+    float: left;
+    border-radius: 10px;
+}
+.navi-link a:hover{
+    border-radius: 20px;
+    transition: 0.5s;
+    background-color: blue;
+    color: aliceblue;
+}
+
+.slider{
+    height: 350px;
+    margin-top: 5px;
+    
+}
+.slider .slider-item{
+    width: 100%;
+    height: 350px;
+}
+.slider .slider-item img{
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.kategori li{
+    padding: 10px;
+    font-size: 20px;
+    margin: 10px;
+    
+}
+/* .kategori ul{
+
+    width: 100%;
+    height: 100%;
+    float: left;
+    text-align:left;
+    background-color: rgb(44, 90, 72);
+    border-radius: 10px;
+    
+} */
+.kategori a{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: coral;
+    text-decoration: none;
+    
+}
+.kategori a:hover{
+    text-shadow: 5px 5px 10px black;
+    color: rgb(18, 105, 155);
+}
+
+.kategori{
+    width: calc(100% - 85%);
+}
+.zort{
+    border-radius: 20px;
+}
+.blog{
+    width: calc(100% - 18%);
+    margin: 10px;
+    float: left;
+
+}
+.body-title{
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.blog .blog-item{
+    width: calc(100% - 81%);
+    float: left;
+    margin: 10px 20px;
+
+}
+.blog .blog-item .blog-item-img{
+    width: 100%;
+}
+.blog .blog-item .blog-item-img img{
+    width: 100%;
+    border-radius: 12px;
+}
+
+.blog .blog-item .blog-item-content{
+    padding: 0px 15px;
+}
+
+.blog .blog-item .blog-item-content .blog-item-title{
+    color: rgb(187, 52, 52);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.blog .blog-item .blog-item-content .blog-item-text{
+    color: rgb(0, 0, 0);
+}
+
+.blog .blog-item .blog-item-content .blog-item-link,
+.about .about-content .about-link{
+    width: 100%;
+    text-decoration: none;
+    background-color: rgb(255, 128, 10);
+    color: rgb(255, 255, 255);
+    padding: 5px 5px;
+    border-radius: 5px;
+}
+
+.blog .blog-item .blog-item-content .blog-item-link:hover,
+.about .about-content .about-link:hover{
+    background-color: rgb(9, 18, 153);
+    color: rgb(255, 255, 255);
+}
+
+.blog .blog-item .blog-item-img img:hover{
+    border-radius: 50px;
+    transition: 0.5s;
+}
+
+.body{
+    width: 100%;
+    float: left;
+    background-color: rgb(255, 242, 242);
+}
+
+.Araslide{
+    width: calc(100% - 30%);
+    float: left;
+}
+
+.Araslide img{
+    margin: 10px;
+    height: 400px;
+    width: calc(100% - 1%);
+    border-radius: 100px;
+}
+
+.footer{
+    width: 100%;
+    height: 100%;
+    float: left;
+}
+
+.footer{
+    background-position: center;
+    background-image: url(../IMG/footer2.jpg);
+    border-radius: 20px;
+}
+.footer-title{
+    width: calc(50% - 30%);
+    margin-top: calc(100% - 97%);
+    margin-left: 500px;
+    font-size: 44px;
+    float: left;
+}
+.footer-input{
+    width: calc(100% - 80%);
+    float: left;
+    margin-left: 100px;
+    margin-top: calc(100% - 96%);
+    border-radius: 20px;
+    border: none;
+}
+.footer-submit{
+    margin-top: calc(100% - 96%);
+    margin-left: 50px;
+    background-color: antiquewhite;
+    border: none;
+    border-radius: 10px;
+}
